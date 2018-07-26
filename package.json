@@ -1,0 +1,11 @@
+{
+	"name": "mysqlApplication",
+	"version": "1.0.0",
+	"dependencies": {
+		"bluebird": "^3.5.1",
+		"express": "^4.13.4",
+		"md5": "^2.2.1",
+		"mysql": "^2.10.2",
+		"node-datetime": "^2.0.6"
+	}
+}

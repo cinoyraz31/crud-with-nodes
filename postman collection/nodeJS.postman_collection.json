@@ -1,0 +1,144 @@
+{
+	"id": "1e048b9d-a9a9-50dc-a0e6-4f9b44170432",
+	"name": "nodeJS",
+	"description": "",
+	"order": [
+		"8bc11037-dff9-d5d5-d4ae-995b4abd264c",
+		"be31f77b-d10a-cb16-4e79-9e7b4e17f710",
+		"e19a4ac1-20e1-5937-c8fb-7958ad904ab3",
+		"fa3d952a-c556-228c-8abd-d39cff56d3b6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1532067553431,
+	"owner": "2726492",
+	"public": false,
+	"requests": [
+		{
+			"id": "8bc11037-dff9-d5d5-d4ae-995b4abd264c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8585/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e048b9d-a9a9-50dc-a0e6-4f9b44170432",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8585/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1532067558805,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"nik\": \"12345\",\n\t\"password\": \"12345\",\n\t\"bumnid\": \"12345\"\n}"
+		},
+		{
+			"id": "be31f77b-d10a-cb16-4e79-9e7b4e17f710",
+			"headers": "token: fa4f1a951fcf38b2ca8642f5e81ab534\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "fa4f1a951fcf38b2ca8642f5e81ab534",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8585/api/data_list",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1532068128611,
+			"name": "http://localhost:8585/api/data_list",
+			"description": "data list",
+			"collectionId": "1e048b9d-a9a9-50dc-a0e6-4f9b44170432",
+			"responses": []
+		},
+		{
+			"id": "e19a4ac1-20e1-5937-c8fb-7958ad904ab3",
+			"headers": "token: fa4f1a951fcf38b2ca8642f5e81ab534\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "fa4f1a951fcf38b2ca8642f5e81ab534",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8585/api/data_detail/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e048b9d-a9a9-50dc-a0e6-4f9b44170432",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8585/api/data_detail/1",
+			"description": "detail",
+			"descriptionFormat": "html",
+			"time": 1532068161709,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fa3d952a-c556-228c-8abd-d39cff56d3b6",
+			"headers": "token: fa4f1a951fcf38b2ca8642f5e81ab534\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "fa4f1a951fcf38b2ca8642f5e81ab534",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8585/api/search",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e048b9d-a9a9-50dc-a0e6-4f9b44170432",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8585/api/search",
+			"description": "search",
+			"descriptionFormat": "html",
+			"time": 1532068319749,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"lat\": \"40.7637828\",\n\t\"long\": \"-73.98591160000001\"\n}"
+		}
+	]
+}
